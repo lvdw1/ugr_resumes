@@ -31,7 +31,7 @@ for filename in os.listdir(PDF_DIR):
         qr.make(fit=True)
 
         # Generate the QR code image
-        img = qr.make_image(fill_color="blue", back_color="white")
+        img = qr.make_image(fill_color="black", back_color="white")
 
         # Construct a filename for the QR code image (replace .pdf with .png)
         qr_filename = os.path.splitext(filename)[0] + ".png"
