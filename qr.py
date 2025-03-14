@@ -1,7 +1,7 @@
 import qrcode
 
 # URL to the PDF resume
-pdf_url = "https://github.com/lvdw1/ugr_resumes/louis_vandewalle.pdf"
+pdf_url = "https://lvdw1.github.io/ugr_resumes/louis_vandewalle.pdf"
 
 # Create a QR code instance
 qr = qrcode.QRCode(
