@@ -2,14 +2,14 @@ import os
 import qrcode
 
 # Directory where your PDFs are located
-PDF_DIR = "pdfs"
+PDF_DIR = "pdfs2"
 
 # Directory to store generated QR code images
-QR_DIR = "qr_codes"
+QR_DIR = "qr_codes2"
 
 # Base URL to your GitHub Pages site
 # Note: adjust if your repo name or path is different
-BASE_URL = "https://lvdw1.github.io/ugr_resumes/pdfs/"
+BASE_URL = "https://lvdw1.github.io/ugr_resumes/pdfs2/"
 
 # Ensure the output folder for QR codes exists
 os.makedirs(QR_DIR, exist_ok=True)
