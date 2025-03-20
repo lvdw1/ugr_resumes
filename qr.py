@@ -9,7 +9,7 @@ QR_DIR = "qr_codes3"
 
 # Base URL to your GitHub Pages site
 # Note: adjust if your repo name or path is different
-BASE_URL = "https://lvdw1.github.io/ugr_resumes/pdfs2/"
+BASE_URL = "https://lvdw1.github.io/ugr_resumes/pdfs3/"
 
 # Ensure the output folder for QR codes exists
 os.makedirs(QR_DIR, exist_ok=True)
